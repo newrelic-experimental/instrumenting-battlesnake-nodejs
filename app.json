@@ -1,0 +1,17 @@
+{
+    "name": "Instrumenting your BattleSnake with NodeJS",
+    "description": "Example of how to instrument your BattleSnake with New Relic, using NodeJS",
+    "repository": "https://github.com/newrelic-experimental/instrumenting-battlesnake-nodejs",
+    "keywords": ["newrelic", "battlesnake", "nodejs", "monitoring"],
+    "buildpacks": [
+      {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+      }
+    ],
+    "env": {
+      "NEW_RELIC_LICENSE_KEY": {
+        "description": "Please provide your New Relic License Key",
+        "value": "license key goes here"
+      }
+    }
+  }
