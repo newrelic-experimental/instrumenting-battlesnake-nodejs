@@ -15,7 +15,7 @@
 ![GitHub pull requests closed](https://img.shields.io/github/issues-pr-closed/newrelic-experimental/instrumenting-battlesnake-nodejs)
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.txt)
+[![Apache licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.txt)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
@@ -36,12 +36,12 @@ This example uses the [BattleSnake JavaScript starter](https://github.com/Battle
 
 This app was built with ...
 
-## Installation
+## Intrumentation
 
 Once you clone or fork the repository, first change into the directory and execute the following commands in your terminal:
 
 ```bash
-- 
+ npm install newrelic --save
 ```
 
 Lastly, rename the `.env.sample` file to `.env`.

@@ -1,3 +1,4 @@
+require('newrelic');
 const express = require('express')
 const { info, start, move, end } = require('./logic')
 
