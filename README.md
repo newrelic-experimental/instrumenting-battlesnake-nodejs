@@ -8,10 +8,11 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 Learn how to instrument your BattleSnake with New Relic using the NodeJS agent.
-
+This example uses the [BattleSnake JavaScript starter](https://github.com/BattlesnakeOfficial/starter-snake-javascript).
 
 
 * [Requirements](#requirements)
+
 * [Installation](#installation)
 * [Usage](#usage)
     * [Customizing The App](#customizing-the-app)
