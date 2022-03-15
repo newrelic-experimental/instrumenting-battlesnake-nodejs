@@ -2,6 +2,18 @@
 
 [![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
 
+
+![GitHub forks](https://img.shields.io/github/forks/newrelic-experimental/instrumenting-battlesnake-nodejs?style=social)
+![GitHub stars](https://img.shields.io/github/stars/newrelic-experimental/instrumenting-battlesnake-nodejs?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/newrelic-experimental/instrumenting-battlesnake-nodejs?style=social)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/newrelic-experimental/instrumenting-battlesnake-nodejs)
+
+![GitHub issues](https://img.shields.io/github/issues/newrelic-experimental/instrumenting-battlesnake-nodejs)
+![GitHub issues closed](https://img.shields.io/github/issues-closed/newrelic-experimental/instrumenting-battlesnake-nodejs)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/newrelic-experimental/instrumenting-battlesnake-nodejs)
+![GitHub pull requests closed](https://img.shields.io/github/issues-pr-closed/newrelic-experimental/instrumenting-battlesnake-nodejs)
+
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.txt)
 
