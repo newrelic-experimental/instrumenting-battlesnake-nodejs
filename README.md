@@ -20,7 +20,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 Learn how to instrument your BattleSnake with New Relic using the NodeJS agent.
-This example uses the [BattleSnake JavaScript starter](https://github.com/BattlesnakeOfficial/starter-snake-javascript).
+For this repository we are using [BattleSnake JavaScript starter](https://github.com/BattlesnakeOfficial/starter-snake-javascript) from the BattleSnake Official.
 
 
 * [Requirements](#requirements)
@@ -37,14 +37,21 @@ This example uses the [BattleSnake JavaScript starter](https://github.com/Battle
 This app was built with ...
 
 ## Intrumentation
-
-Once you clone or fork the repository, first change into the directory and execute the following commands in your terminal:
+- [Create a free account at New Relic](https://newrelic.com/signup?utm_source=devrel&utm_medium=organic_social&utm_campaign=github_newrelic_experimental_devrel_repo),
+- On the New Relic One home page, select the + Add more data button on the top right, and choose Node.js under App Monitoring
+- On the next page click on Begin instalation and choose how you will be installing your Node.js agent, here we are using a Package Manager,
+- Name your application,
+- On your cloned or forked repository, first change into the directory and execute the following commands in your terminal to install the agent:
 
 ```bash
  npm install newrelic --save
 ```
-
-Lastly, rename the `.env.sample` file to `.env`.
+- Download the custom configuration file, and add it to the root of your Node.js application,
+- Add New Relic to your applicatio's main mmodule, pasting the cfollowing command on the first line of your app's main module?
+```bash
+ require('newrelic');
+```
+- Start your application and as soon as it is running, New Relic is collecting your BattleSnake data.
 
 ## Usage
 
