@@ -1,5 +1,5 @@
 {
-    "name": "Instrumenting your BattleSnake with NodeJS",
+    "name": "Instrumenting your BattleSnake with Node.js",
     "description": "Example of how to instrument your BattleSnake with New Relic, using NodeJS",
     "repository": "https://github.com/newrelic-experimental/instrumenting-battlesnake-nodejs",
     "keywords": ["newrelic", "battlesnake", "nodejs", "monitoring"],
