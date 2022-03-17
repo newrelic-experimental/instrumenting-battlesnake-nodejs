@@ -18,10 +18,8 @@ Learn how to instrument your BattleSnake with New Relic using the NodeJS agent.
 For this repository we are using [BattleSnake JavaScript starter](https://github.com/BattlesnakeOfficial/starter-snake-javascript) from the BattleSnake Official.
 
 
-* [Installation](#installation)
-* [Usage](#usage)
-    * [Customizing The App](#customizing-the-app)
-    * [Deploying to Heroku](#deploying-to-heroku)
+* [Intrumentation](#intrumentation)
+* [Deploying to Heroku](#deploying-to-heroku)
 * [Support](#support)
 * [License](#license)
 
@@ -44,7 +42,7 @@ For this repository we are using [BattleSnake JavaScript starter](https://github
 - Start your application and as soon as it is running, New Relic is collecting your BattleSnake data.
 
 
-### Deploying to Heroku
+## Deploying to Heroku
 
 You can deploy the application directly from this GitHub repository by clicking on the `Deploy to Heroku` button at the top of this README. Once you do that you still must set your New Relic License key in Heroku. You can either do so at the time you are initializing your application after you have the clicked the `Deploy to Heroku` button above, or after from within the Heroku Dashboard.
 
