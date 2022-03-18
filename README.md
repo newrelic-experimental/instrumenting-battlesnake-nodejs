@@ -27,7 +27,7 @@ For this repository we are using [BattleSnake JavaScript starter](https://github
 ## Intrumentation
 - [Create a free account at New Relic](https://newrelic.com/signup?utm_source=devrel&utm_medium=organic_social&utm_campaign=github_newrelic_experimental_devrel_repo),
 - On the New Relic One home page, select the + Add more data button on the top right, and choose Node.js under App Monitoring,
-- On the next page click on Begin instalation and choose how you will be installing your Node.js agent, here we are using a Package Manager,
+- On the next page click on Begin installation and choose how you will be installing your Node.js agent, here we are using a Package Manager,
 - Name your application,
 - On your cloned or forked repository, first change into the directory and execute the following commands in your terminal to install the agent:
 
@@ -35,7 +35,7 @@ For this repository we are using [BattleSnake JavaScript starter](https://github
  npm install newrelic --save
 ```
 - Download the custom configuration file, and add it to the root of your Node.js application,
-- Add New Relic to your applicatio's main mmodule, pasting the cfollowing command on the first line of your app's main module:
+- Add New Relic to your application's main module, pasting the following command on the first line of your app's main module:
 ```bash
  require('newrelic');
 ```
