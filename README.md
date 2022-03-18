@@ -34,7 +34,7 @@ For this repository we are using [BattleSnake JavaScript starter](https://github
 ```bash
  npm install newrelic --save
 ```
-- Download the custom configuration file, and add it to the root of your Node.js application,
+- Download the custom configuration file [(or copy it from this repository)](https://github.com/newrelic-experimental/instrumenting-battlesnake-nodejs/blob/main/newrelic.js), and add it to the root of your Node.js application,
 - Add New Relic to your applicatio's main mmodule, pasting the cfollowing command on the first line of your app's main module:
 ```bash
  require('newrelic');
