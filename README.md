@@ -52,15 +52,19 @@ When you download the newrelic.js file, it will have your New Relic license key 
 ```bash
     npm i dotenv
 ```
--Then in your app, require and configure the package like this: ```bash
+- Then in your index.js file, require and configure the package like this: 
+```bash
 require('dotenv').config()
 ```
-- Once you have DotEnv installed and configured, make a file called .env at the root of your app, this is where you will create all of your Nre Relic licenses key environment variable:
+- Once you have DotEnv installed and configured, make a file called .env at the root of your app, this is where you will create all of your New Relic license key environment variable:
 
 ```bash
-NEW_RELIC_LICENSE_KEY=
+NEW_RELIC_LICENSE_KEY={your key}
 ```
-- Now go to the newrelic.js file, copy your license key and substitute it with NEW_RELIC_LICENSE_KEY
+- Now go to the newrelic.js file, copy your license key and substitute it with:
+```bash
+env.NEW_RELIC_LICENSE_KEY
+```
 
 ### Deploying to Heroku
 
