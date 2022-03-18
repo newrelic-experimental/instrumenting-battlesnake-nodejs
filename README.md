@@ -19,7 +19,9 @@ For this repository we are using [BattleSnake JavaScript starter](https://github
 
 
 * [Intrumentation](#intrumentation)
-* [Deploying to Heroku](#deploying-to-heroku)
+* [Usage](#usage)
+    * [Using dotenv](#using-dotenv)
+    * [Deploying to Heroku](#deploying-to-heroku)
 * [Support](#support)
 * [License](#license)
 
@@ -35,7 +37,7 @@ For this repository we are using [BattleSnake JavaScript starter](https://github
  npm install newrelic --save
 ```
 
-- Download the custom configuration file [(or copy it from this repository)](https://github.com/newrelic-experimental/instrumenting-battlesnake-nodejs/blob/main/newrelic.js), and add it to the root of your Node.js application,
+- Download the custom configuration file [(example here)](https://github.com/newrelic-experimental/instrumenting-battlesnake-nodejs/blob/main/newrelic.js), and add it to the root of your Node.js application,
 - Add New Relic to your application's main module, pasting the following command on the first line of your app's main module:
 ```bash
  require('newrelic');
@@ -43,7 +45,24 @@ For this repository we are using [BattleSnake JavaScript starter](https://github
 - Start your application and as soon as it is running, New Relic is collecting your BattleSnake data.
 
 
-## Deploying to Heroku
+## Usage
+### Using dotenv
+When you download the newrelic.js file, it will have your New Relic license key on it. To use it safely, we will work with dotenv.
+- First, install:
+```bash
+    npm i dotenv
+```
+-Then in your app, require and configure the package like this: ```bash
+require('dotenv').config()
+```
+- Once you have DotEnv installed and configured, make a file called .env at the root of your app, this is where you will create all of your Nre Relic licenses key environment variable:
+
+```bash
+NEW_RELIC_LICENSE_KEY=
+```
+- Now go to the newrelic.js file, copy your license key and substitute it with NEW_RELIC_LICENSE_KEY
+
+### Deploying to Heroku
 
 You can deploy the application directly from this GitHub repository by clicking on the `Deploy to Heroku` button at the top of this README. Once you do that you still must set your New Relic License key in Heroku. You can either do so at the time you are initializing your application after you have the clicked the `Deploy to Heroku` button above, or after from within the Heroku Dashboard.
 
